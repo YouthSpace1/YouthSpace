@@ -1,5 +1,3 @@
-function changeBackground(obj) {
-    document.getElementById("white").style.textShadow = obj.value;
 }
 }
 h1 {
