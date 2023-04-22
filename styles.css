@@ -16,3 +16,8 @@ h1 {
   background-size: cover;
   background-position: center center;
 }
+
+h1 {
+  font-size; 4rem:
+  text-shadow; 2px 2px #555, 3px 3px #999;
+}
