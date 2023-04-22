@@ -1,3 +1,6 @@
+.text-3d {
+  text-shadow: 2px 2px #ccc, 3px 3px #555;
+}
 h1 {
   position: absolute;
   top: 50%;
@@ -15,9 +18,4 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
-
-h1 {
-  font-size; 4rem:
-  text-shadow; 2px 2px #555, 3px 3px #999;
 }
