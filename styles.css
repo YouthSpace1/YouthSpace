@@ -1,5 +1,6 @@
-.text-3d {
-  text-shadow: 2px 2px #ccc, 3px 3px #555;
+function changeBackground(obj) {
+    document.getElementById("white").style.textShadow = obj.value;
+}
 }
 h1 {
   position: absolute;
