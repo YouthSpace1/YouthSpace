@@ -8,6 +8,7 @@
 </head>
 <body class="bg-image">
 	<header>
+	
 		<div class="container">
 			<a href="#" class="logo">#</a>
 			<nav>
@@ -46,11 +47,39 @@
 				</ul>
 			</div>
 		</section>
+		<section class="slidshow">
+			<div class="mySlides fade">
+				<img src="Picture 1" alt="image 1">
+				</div>
+			<div class="mySlides fade">
+				<img src="Picture 2" alt="image 2">
+				</div>
+			<div class="mySlides fade">
+				<img src="Picture 3" alt="image 3">
+				</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+		</section>
 	</main>
 	<footer>
 		<div class="container">
 			<p>&copy; 2023 YMCA YouthSpace. All rights reserved.</p>
 		</div>
 	</footer>
+	<script>
+		var slideindex = 1
+		showSlides(slideindex);
+		
+		function plusSlides(n){
+			showSlides(+=n)
+		}
+		function currentSlide(n){
+			showSlides(slideindex = n)
+		}
+		function showSlides(n){
+			var i;
+			var slides= document.getElementsByClassName("mySlides")
+		}
 </body>
 </html>
