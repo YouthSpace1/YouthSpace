@@ -72,14 +72,27 @@
 		showSlides(slideindex);
 		
 		function plusSlides(n){
-			showSlides(+=n)
+			showSlides(slideIndex += n)
 		}
 		function currentSlide(n){
-			showSlides(slideindex = n)
+			showSlides(slideIndex = n)
 		}
 		function showSlides(n){
 			var i;
-			var slides= document.getElementsByClassName("mySlides")
+			var slides= document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot")
+			if (n > slides.length){slideIndex = 1}
+			if (n <){slideIndex = slide.length}
+			for (i = o; i < slides.length; i++){
+				slides[i].style.display = "none";
+			}
+			for (i = o; i < slides.length; i++){
+				dots[i].className = dots[i].className.replace(" active", "")
+			}
+			slides[slideIndex-1].style.display = "block";
 		}
+		slides[slideIndex-1].className += " active";
+		}
+		</script>
 </body>
 </html>
